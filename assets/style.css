@@ -1,0 +1,51 @@
+@import url @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Stoke:wght@300&family=Ubuntu:wght@500&display=swap');
+
+* {
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(94deg,rgb(246, 237, 250),rgb(232, 215, 247),rgb(254, 255, 223), rgb(229, 210, 247), rgb(229, 207, 248), rgb(246, 237, 250));
+  
+}
+
+button {
+  border: 1px solid rgb(71, 4, 68);
+  border-radius: 5px;
+  background-color: rgb(254, 255, 223);
+  color: rgb(71, 4, 68);
+  text-align: center;
+  padding: 5px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(71, 4, 68);
+}
+
+#tasks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+:checked + label {
+  text-decoration: line-through;
+  color:rgb(71, 4, 68);
+}
+
+h1 {
+    text-transform: uppercase;
+    color: rgb(71, 4, 68)te;
+}
